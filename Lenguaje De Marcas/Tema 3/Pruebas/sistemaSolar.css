@@ -3,11 +3,11 @@ body{
     color: white;
 }
 nav a{
-    color: yellow;
     font-family:'Oswald' ,sans-serif;
 }
 
 a{
+    color: yellow;
     text-decoration: none;
 }
 
