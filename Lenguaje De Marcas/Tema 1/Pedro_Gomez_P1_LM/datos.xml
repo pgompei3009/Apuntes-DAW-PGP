@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discografia>
+  <album>
+    <nombre>Rock Transgresivo</nombre>
+    <fecha>12/01/1989</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra principal"/>
+      <persona nombre="Luis &quot;Von Fanta&quot;" rol="Batería"/>
+      <persona nombre="Salo" rol="Guitarra rítmica"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Somos unos animales</nombre>
+    <fecha>XX/07/1991</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Salo" rol="Guitarra rítmica"/>
+      <persona nombre="Carlos &quot;El Sucio&quot;" rol="Bajo"/>
+      <persona nombre="Luis &quot;Von Fanta&quot;" rol="Batería"/>
+      <persona nombre="Rosendo Mercado" rol="Voz invitada / guitarra invitada"/>
+      <persona nombre="María" rol="Coros"/>
+      <persona nombre="Belén" rol="Coros"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Deltoya</nombre>
+    <fecha>XX/06/1992</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Salo" rol="Guitarra rítmica"/>
+      <persona nombre="Carlos &quot;El Sucio&quot;" rol="Bajo"/>
+      <persona nombre="Luis &quot;Von Fanta&quot;" rol="Batería"/>
+      <persona nombre="María" rol="Coros / voz invitada"/>
+      <persona nombre="Belén" rol="Coros / voz invitada"/>
+      <persona nombre="Rafa Kas" rol="Guitarra, teclados invitados"/>
+      <persona nombre="Ariel Rot" rol="Guitarra solista invitada"/>
+      <persona nombre="Luisma" rol="Coros invitados"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>¿Dónde están mis amigos?</nombre>
+    <fecha>17/09/1993</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra, flauta/reed"/>
+      <persona nombre="Eugenio Ortiz &quot;Uge&quot;" rol="Guitarra"/>
+      <persona nombre="Jorge &quot;El Moja&quot;" rol="Batería"/>
+      <persona nombre="Miguel Ferreras" rol="Bajo"/>
+      <persona nombre="Ramón &quot;Mon&quot; Sogas" rol="Bajo (alternativo)"/>
+      <persona nombre="Selu" rol="Saxofón, reed"/>
+      <persona nombre="Belén" rol="Coros / voz invitada"/>
+      <persona nombre="Fernando Madina" rol="Voz invitada"/>
+      <persona nombre="Aitor Bengoa" rol="Voz invitada"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra invitada"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Pedrá</nombre>
+    <fecha>17/02/1995</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, teclados invitados"/>
+      <persona nombre="Selu" rol="Saxo, voz invitada"/>
+      <persona nombre="Dieguillo" rol="Bajo"/>
+      <persona nombre="Gary (Quattro Clavos)" rol="Batería"/>
+      <persona nombre="Ramone" rol="Voz invitada / efecto extra"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Ágila</nombre>
+    <fecha>23/03/1996</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra, composición"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra líder, producción, teclados"/>
+      <persona nombre="Ramón &quot;Mon&quot; Sogas" rol="Bajo"/>
+      <persona nombre="Iñaki &quot;Milindris&quot; Setién" rol="Guitarra rítmica"/>
+      <persona nombre="Alberto &quot;Capi&quot; Gil" rol="Batería"/>
+      <persona nombre="José Sañudo" rol="Saxofón, flauta"/>
+      <persona nombre="Sergio &quot;Ratanera&quot;" rol="Batería auxiliar / instrumentación extra"/>
+      <persona nombre="Pepegu &quot;Ratanera&quot;" rol="Bajo auxiliar / instrumentación extra"/>
+      <persona nombre="Isaac &quot;Ratanera&quot;" rol="Guitarra auxiliar / instrumentación extra"/>
+      <persona nombre="Sime" rol="Trombón de varas"/>
+      <persona nombre="Fito Cabrales" rol="Guitarra flamenca / colaborador en canciones específicas"/>
+      <persona nombre="El Reverendo" rol="Órgano Hammond / teclados invitados"/>
+      <persona nombre="Josu Monge" rol="Percusión / batería adicional en temas puntuales"/>
+      <persona nombre="Elena" rol="Voz invitada en tema específico"/>
+      <persona nombre="Albert Pla" rol="Voz invitada en tema específico"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Iros todos a tomar por culo</nombre>
+    <fecha>20/10/1997</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, producción"/>
+      <persona nombre="Miguel Colino" rol="Bajo"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+      <persona nombre="Iñaki &quot;Milindris&quot; Setién" rol="Guitarra rítmica"/>
+      <persona nombre="Alberto &quot;Capi&quot; Gil" rol="Batería adicional invitados"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Canciones prohibidas</nombre>
+    <fecha>28/09/1998</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra, bajo con distorsión, pandereta"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, bajo, piano, órgano, trombón, percusión, coros"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+      <persona nombre="Mikel Irazoki" rol="Bajo invitado"/>
+      <persona nombre="Arkadiusz Tomasz Czyzewski" rol="Primer violín"/>
+      <persona nombre="Iwona Przyzecka" rol="Segundo violín"/>
+      <persona nombre="Iwona Skrzypczak" rol="Viola"/>
+      <persona nombre="Jurek Andrzejczak" rol="Cello"/>
+      <persona nombre="Carlos &quot;Alma&quot; Almaguer Torres" rol="Percusión invitada"/>
+      <persona nombre="Joseba Molina &quot;Canario&quot;" rol="Bandurria / laúd"/>
+      <persona nombre="Garikoitz Badiola &quot;Gari&quot;" rol="Trombón"/>
+      <persona nombre="Patxi Urtxegi" rol="Trompeta / fliscorno"/>
+      <persona nombre="Adolfo &quot;Fito&quot; Cabrales" rol="Voz invitada en canción Golfa"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Yo, minoría absoluta</nombre>
+    <fecha>05/03/2002</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra principal"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, producción"/>
+      <persona nombre="Miguel Colino" rol="Bajo"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+      <persona nombre="Fito Cabrales" rol="Coros invitados"/>
+      <persona nombre="Sara" rol="Coros invitados"/>
+      <persona nombre="Gino Pavone" rol="Percusión"/>
+      <persona nombre="Batiz" rol="Guitarra slide invitada"/>
+      <persona nombre="Javi Isasi" rol="Trompeta invitada"/>
+      <persona nombre="Lourdes Aldekoa" rol="Coros invitados"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>La ley innata</nombre>
+    <fecha>09/09/2008</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra, composición"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, producción"/>
+      <persona nombre="Miguel Colino" rol="Bajo"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+      <persona nombre="Ara Malikian" rol="Violinista invitado"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Material defectuoso</nombre>
+    <fecha>24/05/2011</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, producción"/>
+      <persona nombre="Miguel Colino" rol="Bajo"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+
+  <album>
+    <nombre>Para todos los públicos</nombre>
+    <fecha>08/11/2013</fecha>
+    <participantes>
+      <persona nombre="Roberto &quot;Robe&quot; Iniesta" rol="Vocalista, guitarra"/>
+      <persona nombre="Iñaki &quot;Uoho&quot; Antón" rol="Guitarra, producción"/>
+      <persona nombre="Miguel Colino" rol="Bajo"/>
+      <persona nombre="José Ignacio Cantera" rol="Batería"/>
+    </participantes>
+    <ventas></ventas>
+  </album>
+</discografia>

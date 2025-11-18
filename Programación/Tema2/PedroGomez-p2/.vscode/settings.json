@@ -1,0 +1,9 @@
+{
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120],
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "workbench.activityBar.location": "hidden"
+}

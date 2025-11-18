@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+nav a{
+    color: yellow;
+    font-family:'Oswald' ,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    color:yellow;
+    font-family:'Oswald' ,sans-serif;
+    text-align: center;
+}
