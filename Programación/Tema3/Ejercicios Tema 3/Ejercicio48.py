@@ -5,9 +5,9 @@ matriz = [
     [1, 0, -1]
 ]
 
-for i in range(len(matriz)):
-    for j in range(len(matriz[i])):
-        if matriz[i][j] < 0:
+for i, fila in enumerate(matriz):
+    for j, n in enumerate(fila):
+        if n < 0:
             matriz[i][j] *= -1
 
 print(matriz)

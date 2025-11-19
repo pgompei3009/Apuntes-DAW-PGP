@@ -9,9 +9,7 @@ alumnos = [
 suspensos = []
 
 for alumno in alumnos:
-    for i in range(1, len(alumno)-1):
-        if alumno[i] < 5:
-            suspensos.append(alumno[0])
-            break
+    if min(alumno[1:]) < 5:
+        suspensos.append(alumno[0])
 
 print(f"Lista de alumnos con asignaturas suspensas {suspensos}")

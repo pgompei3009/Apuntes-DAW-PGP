@@ -6,14 +6,12 @@ matriz = [
 ]
 
 #Sin index
-row = 0
 for i, fila in enumerate(matriz):
     for j, n in enumerate(fila):
         if n == 5:
-            print(f"El número 5 se encuentra en la posición [{i}][{j}]")
-            break
+            print(f"Hay un 5 en la posición [{i}][{j}]")
 
 #Con index
 for i, fila in enumerate(matriz):
     if 5 in fila:
-        print(f"El número 5 se encuentra en la posición [{i}][{fila.index(5)}]")
+        print(f"Hay un 5 en la posición [{i}][{fila.index(5)}]")

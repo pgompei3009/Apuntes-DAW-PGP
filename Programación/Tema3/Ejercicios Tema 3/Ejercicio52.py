@@ -1,5 +1,5 @@
-def calcular_media(alumno: list) -> float:
-    media = (alumno[1]+alumno[2]+alumno[3])/3
+def calcular_media(notas: list) -> float:
+    media = sum(notas)/len(notas)
     return media
 
 alumnos = [
@@ -13,7 +13,8 @@ alumnos = [
 mediaMenor = 11
 
 for alumno in alumnos:
-    media = calcular_media(alumno)
+    notas = alumno[1:]
+    media = calcular_media(notas)
     if media < mediaMenor:
         mediaMenor = media
         alumnoMenor = alumno[0]

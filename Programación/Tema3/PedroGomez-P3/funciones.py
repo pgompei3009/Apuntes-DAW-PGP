@@ -1,7 +1,18 @@
+import random
+
 def imprimirNivel(nivel: int):
     print('--------------\n'
-         f'    NIVEL {nivel}\n'
+         f'    NIVEL {nivel+1}\n'
           '--------------')
+
+def generarNivel(palabrasNiveles: list[str], nivel) -> list[str]:
+    enunciadoNivel = []
+    palabraNivel = palabrasNiveles[nivel][random.randint(0,7)]
+
+    for char in palabraNivel:
+        enunciadoNivel.append('_')
+    
+    return palabraNivel, enunciadoNivel
 
 def comprobarLetra(vidas: int, letra: str, nivel: list[str], palabraNivel: list[str], letrasUtilizadas: list[str]) -> list[int, list[str]]:
     letraEncontrada = False

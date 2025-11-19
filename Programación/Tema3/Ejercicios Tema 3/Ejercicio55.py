@@ -3,10 +3,7 @@ import random
 def crear_matriz(n: int, m: int, a: int, b: int) -> list[list[int]]:
     matriz = []
     for _ in range(0, n):
-        fila = []
-        for _ in range(0, m):
-            fila.append(random.randint(a, b))
-        matriz.append(fila)
+        matriz.append([random.randint(a, b) for _ in range(0, m)])
     
     return matriz
 

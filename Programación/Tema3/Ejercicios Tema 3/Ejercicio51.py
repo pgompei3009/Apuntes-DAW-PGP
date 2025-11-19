@@ -7,4 +7,5 @@ alumnos = [
 ]
 
 for alumno in alumnos:
-    print(f"Media de {alumno[0]}: {(alumno[1]+alumno[2]+alumno[3])/3}")
+    notas = alumno[1:]
+    print(f"Media de {sum(notas)/len(notas)}")
