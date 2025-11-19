@@ -1,0 +1,23 @@
+matriz = [
+    [4, -2, 3],
+    [3, 4, 2],
+    [7, 5, 9],
+    [1, 0, -1]
+]
+
+#Sin sum
+suma = 0
+
+for fila in matriz:
+    for n in fila:
+        suma += n
+
+print(suma)
+
+#Con sum
+suma = 0
+
+for fila in matriz:
+    suma += sum(fila)
+
+print(suma)
