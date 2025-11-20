@@ -1,9 +1,9 @@
 import funciones, random
 
 vidas = 10
-palabrasNiveles = (('DEDO', 'GATO', 'LORO', 'GAFA', 'PATO', 'UOHO', 'ROBE', 'SALO'),
-                   ('PALOMA', 'TRITON', 'TARIFA', 'GIRAFA', 'ATRACO', 'CUÑADO', 'DUENDE', 'PARQUE'),
-                   ('ELEFANTE', 'FANTASMA', 'MONTAÑA', 'CAMISETA', 'DIAMANTE', 'MARIPOSA', 'CATEDRAL', 'ALERGIA'))
+palabrasNiveles = (('DEDO', 'GATO', 'LORO', 'GAFA', 'PATO', 'UOHO', 'ROBE', 'SALO'), #NIVEL 1
+                   ('PALOMA', 'TRITON', 'TARIFA', 'GIRAFA', 'ATRACO', 'CUÑADO', 'DUENDE', 'PARQUE'), #NIVEL 2
+                   ('ELEFANTE', 'FANTASMA', 'MONTAÑA', 'CAMISETA', 'DIAMANTE', 'MARIPOSA', 'CATEDRAL', 'ALEGRIA') ) #NIVEL 3
 nivel = 0
 
 while True:

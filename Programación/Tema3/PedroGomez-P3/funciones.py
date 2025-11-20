@@ -19,19 +19,18 @@ def comprobarLetra(vidas: int, letra: str, enunciadoNivel: list[str], palabraNiv
         print('Ya has puesto esa letra... -1 vida')
         vidas -= 1
 
-    elif letra in palabraNivel:
-        print('Has encontrado una letra!!! Te sumo una vida')
+    else: 
+        if letra in palabraNivel:
+            print('Has encontrado una letra!!! Te sumo una vida')
+            vidas += 1
+            for i, char in enumerate(palabraNivel):
+                if char == letra:
+                    enunciadoNivel[i] = letra
+        else:
+            print('Has fallado :(, pierdes una vida')
+            vidas -= 1
+        
         letrasUtilizadas.append(letra)
-        vidas += 1
-        for i, char in enumerate(palabraNivel):
-            if char == letra:
-                enunciadoNivel[i] = letra
-
-    else:
-        print('Has fallado :(, pierdes una vida')
-        letrasUtilizadas.append(letra)
-        vidas -= 1
-     
     
     return enunciadoNivel, letrasUtilizadas, vidas
 
@@ -41,6 +40,7 @@ def jugar_nivel(nivel: int, vidas: int, enunciadoNivel: list[str], palabraNivel:
         if vidas == 0:
                 print('Has perdido')
                 SystemExit
+
         if '_' not in enunciadoNivel:
                 print('Enhorabuena, has encontrado la palabra:\n'
                     f'{enunciadoNivel}')
