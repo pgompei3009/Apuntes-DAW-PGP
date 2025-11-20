@@ -1,4 +1,4 @@
-import funciones, random
+import funciones
 
 vidas = 10
 palabrasNiveles = (('DEDO', 'GATO', 'LORO', 'GAFA', 'PATO', 'UOHO', 'ROBE', 'SALO'), #NIVEL 1
