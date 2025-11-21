@@ -1,17 +1,18 @@
 import random
 
 def imprimir_tablero(matriz: list[list[int]]):
+    print('-------------')
     for fila in matriz:
         print(end='| ')
         for casilla in fila:
             signo = '-'
             if casilla == 1:
-                signo = "X"
+                signo = 'X'
             elif casilla == -1:
-                signo = "O"
+                signo = 'O'
 
-            print(signo, end=" | ")
-        print("\n-------------")
+            print(signo, end=' | ')
+        print('\n-------------')
     
 def movimiento_jugador(matriz: list[list[int]]) -> list[list[list[int]]]:
     print('Turno Jugador!!!\n')

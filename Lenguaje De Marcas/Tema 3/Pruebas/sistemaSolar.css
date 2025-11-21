@@ -16,3 +16,14 @@ h1,h2,h3,h4{
     font-family:'Oswald' ,sans-serif;
     text-align: center;
 }
+
+.imagen{
+    width: 50%;
+    min-width: 330px;
+}
+
+.texto{
+    background-color: rgb(43, 43, 43);
+    border-left: solid 5px;
+    padding: 2rem;
+}
