@@ -37,22 +37,35 @@ def movimiento_ia(matriz: list[list[int]]) -> list[list[list[int]]]:
             break
     return matriz
 
+def resumen(matriz: list[int]) -> tuple[int]:
+    estadoMatriz = (
+            sum(matriz[0]), 
+            sum(matriz[1]), 
+            sum(matriz[2]), 
+            sum((matriz[0][0] , matriz[1][1] , matriz[2][2])), 
+            sum((matriz[0][0] , matriz[1][0] , matriz[2][0])), 
+            sum((matriz[0][1] , matriz[1][1] , matriz[2][1])), 
+            sum((matriz[0][2] , matriz[1][2] , matriz[2][2])), 
+            sum((matriz[0][2] , matriz[1][1] , matriz[2][0])))
+    return estadoMatriz
+
 def comprobar_resultado(matriz: list[list[int]]) -> str:
     resultado = None
+    estadoMatriz = resumen(matriz)
     tableroCompleto = True
 
     for fila in matriz:
         if 0 in fila:
-            tableroCompleto == False
+            tableroCompleto = False
             break
 
     if tableroCompleto == True:
         resultado = 'Empate!!!'
 
-    if (matriz[0][0] == 1 and matriz[1][1] == 1 and matriz[2][2] == 1) or (matriz[0][0] == 1 and matriz[1][0] == 1 and matriz[2][0] == 1) or (matriz[0][1] == 1 and matriz[1][1] == 1 and matriz[2][1] == 1) or (matriz[0][2] == 1 and matriz[1][2] == 1 and matriz[2][2] == 1) or (matriz[0][0] == 1 and matriz[0][1] == 1 and matriz[0][2] == 1) or (matriz[0][2] == 1 and matriz[1][1] == 1 and matriz[2][0] == 1) or (matriz[1][0] == 1 and matriz[1][1] == 1 and matriz[1][2] == 1) or (matriz[2][0] == 1 and matriz[2][1] == 1 and matriz[2][2] == 1):
+    if 3 in estadoMatriz:
         resultado = 'Victoria!!!!'
     
-    elif (matriz[0][0] == -1 and matriz[1][1] == -1 and matriz[2][2] == -1) or (matriz[0][0] == -1 and matriz[1][0] == -1 and matriz[2][0] == -1) or (matriz[0][1] == -1 and matriz[1][1] == -1 and matriz[2][1] == -1) or (matriz[0][2] == -1 and matriz[1][2] == -1 and matriz[2][2] == -1) or (matriz[0][0] == -1 and matriz[0][1] == -1 and matriz[0][2] == -1) or (matriz[0][2] == -1 and matriz[1][1] == -1 and matriz[2][0] == -1) or (matriz[1][0] == -1 and matriz[1][1] == -1 and matriz[1][2] == -1) or (matriz[2][0] == -1 and matriz[2][1] == -1 and matriz[2][2] == -1):
+    elif -3 in estadoMatriz:
         resultado = 'Derrota...'
 
     return resultado
