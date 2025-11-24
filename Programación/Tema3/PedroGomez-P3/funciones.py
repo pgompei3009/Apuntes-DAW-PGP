@@ -5,7 +5,7 @@ def imprimirNivel(nivel: int):
          f'    NIVEL {nivel+1}\n'
           '--------------')
 
-def generarNivel(palabrasNiveles: list[str], nivel) -> list[str]:
+def generarNivel(palabrasNiveles: tuple[str], nivel) -> list[str]:
     enunciadoNivel = []
     palabraNivel = palabrasNiveles[nivel][random.randint(0,7)]
 
