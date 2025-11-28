@@ -1,0 +1,22 @@
+*{
+    font-family: "Comfortaa", sans-serif;
+    box-sizing: border-box;
+}
+
+div .inp{
+    display: inline-block;
+    width: 33%;
+}
+
+div{
+    padding-bottom: 1rem;
+}
+
+section{
+    width: 100%;
+}
+
+button{
+    padding: 0 auto;
+    width: 25%;
+}

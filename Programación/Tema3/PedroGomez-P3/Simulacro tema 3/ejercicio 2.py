@@ -13,12 +13,12 @@ pesoAnimales = [
     [0.02, 0.06] # Canario
 ]
 
-maxDif = pesoAnimales[0][1]/pesoAnimales[0][0]
+maxDif = pesoAnimales[0][1]-pesoAnimales[0][0]
 animalMaxDif = 0
 
 for pesoAnimal in pesoAnimales:
-    if pesoAnimal[1]/pesoAnimal[0] > maxDif:
-        maxDif = pesoAnimal[1]/pesoAnimal[0]
+    if pesoAnimal[1]-pesoAnimal[0] > maxDif:
+        maxDif = pesoAnimal[1]-pesoAnimal[0]
         animalMaxDif = pesoAnimales.index(pesoAnimal)
 
 print(f'El animal con la mayor diferencia entre su mayor y menor es el {animales[animalMaxDif]}')

@@ -2,15 +2,7 @@ animales = ["Perro", "Gato", "Conejo", "Hámster", "Loro", "Pez", "Tortuga", "Co
 
 pesoAnimales = [10, 4, 2, 0.1, 0.3, 0.2, 1.5, 1, 1.2, 0.05]
 
-
-pesoMin = pesoAnimales[0]
-
-for pesoAnimal in pesoAnimales:
-    if pesoAnimal < pesoMin:
-        pesoMin = pesoAnimal
-        animalMin = pesoAnimales.index(pesoAnimal)
-
-print(f'El animal con el peso medio menor es el {animales[animalMin]} con {pesoMin} Kg \n')
+print(f'El animal con el peso medio menor es el {animales[pesoAnimales.index(min(pesoAnimales))]} con {min(pesoAnimales)} Kg \n')
 
 pesoMedio = sum(pesoAnimales)/len(pesoAnimales)
 
