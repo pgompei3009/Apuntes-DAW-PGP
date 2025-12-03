@@ -1,0 +1,19 @@
+from random import randint
+
+def matriz_aleatoria(n: int, m:int) -> list[list[int], list[int]]:
+    matriz = []
+    for _ in range(n):
+        matriz.append([randint(0, 9) for _ in range(m)])
+    return matriz
+
+def imprimir_matriz(matriz: list[list[int], list[int]]) -> None:
+    for n in matriz:
+        for m in n:
+            print(m, end=" ")
+        print()
+
+n = int(input('Dame el número de filas: '))
+m = int(input('Dame el número de columnas: '))
+
+matriz = matriz_aleatoria(n, m)
+imprimir_matriz(matriz)
