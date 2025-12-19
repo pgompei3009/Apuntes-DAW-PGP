@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TDAW, DIW, ej 6.4</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: black;
+		
+	}
+
+	h1{
+		text-align: center;
+		color: white;
+	}
+
+	.planetario{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.planetario>img{
+		width: 20%;
+	}
+
+	.planetario>img.satelite{
+		width: 5%;
+		align-self: flex-start;
+	}
+</style>
+<body>
+	<h1>Planetas interiores con sus lunas</h1>
+	<div class="planetario">
+		<img src="assets/img/ven.jpg" alt="">
+		<img src="assets/img/tie.jpg" alt="">
+		<img src="assets/img/moon.jpg" alt="" class="satelite">
+		<img src="assets/img/mar.jpg" alt="">
+		<img src="assets/img/fobos.jpg" alt="" class="satelite">
+		<img src="assets/img/deimos.jpg" alt="" class="satelite">
+	</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.contenedor{
+			border: 1px solid black;
+		}
+
+		img{
+			max-width: 128px;
+			max-height: 128px;
+		}
+
+		#ej1{
+			display: flex;
+			flex-direction: row;
+		}
+
+		#ej2{
+			display:flex;
+			flex-wrap: wrap;
+		}
+
+		#ej3{
+			display:flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+
+		#ej4{
+			display: flex;
+			align-items: center;
+		}
+
+		#mundo{
+			max-width: 200px;
+			max-height: 200px;
+		}
+
+		#ej5{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			width: 50%;
+			height: 700px;
+		}
+	</style>
+</head>
+<body>
+	<p>Ejemplo flex-direction: </p>
+	<div class="contenedor" id="ej1">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+	</div>
+
+	<p>Ejemplo flex-wrap</p>
+	<div class="contenedor" id="ej2">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+		<img src="assets/img/spa.png" alt="">
+	</div>
+
+	<p>Ejemplo justify-content</p>
+	<div class="contenedor" id="ej3">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+	</div>
+
+	<p>Ejemplo align-items</p>
+	<div class="contenedor" id="ej4">
+		<img src="assets/img/mundo.png" alt="" id="mundo">
+		<div class="banderas">
+			<img src="assets/img/spa.png" alt="">
+			<img src="assets/img/por.png" alt="">
+			<img src="assets/img/uk.png" alt="">
+			<img src="assets/img/ger.png" alt="">
+		</div>
+	</div>
+
+	<p>Ejemplo align-content</p>
+	<div class="contenedor" id="ej5">
+		<img src="assets/img/spa.png" alt="">
+		<img src="assets/img/por.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+		<img src="assets/img/uk.png" alt="">
+		<img src="assets/img/ger.png" alt="">
+	</div>
+</body>
+</html>

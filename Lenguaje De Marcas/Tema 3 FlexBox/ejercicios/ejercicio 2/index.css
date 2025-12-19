@@ -1,0 +1,12 @@
+article{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    width: 50%;
+}
+
+img{
+    width: 50%;
+}

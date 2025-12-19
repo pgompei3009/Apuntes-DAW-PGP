@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo tamaños Flexbox</title>
+	<style>
+
+		.menu{
+			font-size: 3em;
+			border: 1px solid black;
+			display: flex;
+			margin-bottom: 3rem;
+			align-items: stretch;
+		}
+
+		.logo{
+			background-color: lightblue;
+		}
+
+		.enlaces{
+			background-color: lightpink;
+		}
+
+		#enlaces2{
+			flex-grow: 1;
+		}
+
+		#enlaces3{
+			flex-grow: 1;
+		}
+
+		#logo3{
+			flex-grow: 1;
+		}
+
+		#enlaces4{
+			flex-grow: 3;
+		}
+
+		#logo4{
+			flex-grow: 1;
+		}
+
+		.menuShrink{
+			width: 400px;
+
+		}
+
+		.menuShrink>div{
+			width: 200px;
+		}
+
+		.menuShrink>div:nth-child(1){
+			flex-grow: 1;
+			flex-shrink: 1;
+			background-color: red;
+		}
+
+		.menuShrink>div:nth-child(2){
+			flex-grow: 4;
+			flex-shrink: 2;
+			background-color: blue;
+		}
+
+		.menuShrink>div:nth-child(3){
+			flex-grow: 1;
+			flex-shrink: 1;
+			background-color: red;
+		}
+
+		.menuFlex{
+			width: 400px;
+
+		}
+
+		.menuFlex>div:nth-child(1){
+			flex: 1 1 200px;
+			background-color: red;
+		}
+
+		.menuFlex>div:nth-child(2){
+			flex: 2 1 auto;
+			background-color: blue;
+		}
+
+		.menuFlex>div:nth-child(3){
+			flex: 1 1 auto;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<p>Sin flex-grow y sin flex-grow</p>
+	<div class="menu">
+		<span class="logo" id="logo1">Logo</span>
+		<span class="enlaces" id="enlaces1">Enlaces</span>
+	</div>
+
+	<p>Sin flex-grow y flex-grow:1</p>
+	<div class="menu">
+		<span class="logo" id="logo2">Logo</span>
+		<span class="enlaces" id="enlaces2">Enlaces</span>
+	</div>
+
+	<p>flex-grow:1 y flex-grow:1</p>
+	<div class="menu">
+		<span class="logo" id="logo3">Logo</span>
+		<span class="enlaces" id="enlaces3">Enlaces</span>
+	</div>
+
+	<p>flex-grow:1 y flex-grow:3</p>
+	<div class="menu">
+		<span class="logo" id="logo4">Logo</span>
+		<span class="enlaces" id="enlaces4">Enlaces</span>
+	</div>
+
+	<p>Ejemplo flex-shrink:</p>
+	<div class="menu menuShrink">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+
+	<p>Ejemplo con flex-grow, flex-shrink, flex-basis</p>
+	<div class="menu menuFlex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+</body>
+</html>
