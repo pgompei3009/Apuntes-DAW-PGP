@@ -1,0 +1,41 @@
+body{
+    background-color: lightgrey;
+    margin: 2rem;
+}
+
+.partido{
+    -webkit-box-shadow: 8px 8px 5px -1px rgba(0,0,0,0.74); 
+    box-shadow: 8px 8px 5px -1px rgba(0,0,0,0.74);
+    background-color: white;
+    border: solid 1px black;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.cabecera{
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.pais{
+    font-style: italic;
+}
+
+#bandera{
+    font-size: 200%;
+}
+
+.imagen{
+    margin: 1rem;
+    width: 40%;
+    float:right;
+}

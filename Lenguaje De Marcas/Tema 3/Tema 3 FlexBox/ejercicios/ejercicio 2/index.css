@@ -1,6 +1,12 @@
+*{
+    background-color: black;
+
+}
+
 article{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .texto{

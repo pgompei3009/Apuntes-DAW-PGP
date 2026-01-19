@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 25%;
+}
+
+.luna{
+    width: 8.33%;
+    align-self: flex-start;
+}

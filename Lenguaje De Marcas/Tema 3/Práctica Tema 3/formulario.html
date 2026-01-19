@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/bellota.png">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="30"><br>        
+        <label for="email">Correo:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="pass">Contraseña:</label><br>
+        <input type="password" name="pass" id="pass" required><br><br>
+        <label for="bdate">Fecha de nacimiento:</label>
+        <input type="date" id="bdate" name="bdate" required>
+        <fieldset>
+            <legend>Banda Favorita</legend>
+            <input type="radio" id="Extremoduro" name="banda" value="Extremoduro" required>
+            <label for="Extremoduro">Extremoduro</label>
+            <input type="radio" id="Robe" name="banda" value="Robe">
+            <label for="Robe">Robe</label>
+            <input type="radio" id="Extrechinato" name="banda" value="Extrechinato">
+            <label for="Extrechinato">Extrechinato y Tú</label>
+        </fieldset><br>
+        <label for="conciertos">Veces que has visto Extremoduro (o tributos)/Robe en directo:</label>
+        <input type="number" id="conciertos" name="conciertos" required min="0"><br>
+        <label for="album">Subir portada de tu album favorito:</label><br>
+        <input type="file" id="album" name="album"><br>
+        <br>
+        <label for="provincia">Selecciona a que provincia de Andalucía te gustaría que fuese Robe en su próxima gira:</label>
+        <select id="provincia" name="provincia" required>
+            <option value="almeria">Almería</option>
+            <option value="cadiz">Cádiz</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="granada">Granada</option>
+            <option value="huelva">Huelva</option>
+            <option value="jaen">Jaén</option>
+            <option value="malaga">Málaga</option>
+            <option value="sevilla">Sevilla</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Selecciona tus discos favoritos</legend>
+            <input type="checkbox" id="RT" name="RT" value="RT">
+            <label for="RT">Rock Transgresivo</label>
+            <input type="checkbox" id="SUA" name="SUA" value="SUA">
+            <label for="SUA">Somos Unos Animales</label>
+            <input type="checkbox" id="D" name="D" value="D">
+            <label for="D">Deltoya</label>
+            <input type="checkbox" id="DEMA" name="DEMA" value="DEMA">
+            <label for="DEMA">¿Dónde Están Mis Amigos?</label>
+            <input type="checkbox" id="A" name="A" value="A">
+            <label for="A">Agila</label>
+            <input type="checkbox" id="CP" name="CP" value="CP">
+            <label for="CP">Canciones Prohibidas</label>
+            <input type="checkbox" id="YMA" name="YMA" value="YMA">
+            <label for="YMA">Yo, Minoría Absoluta</label>
+            <input type="checkbox" id="LLI" name="LLI" value="LLI">
+            <label for="LLI">La Ley Innata</label>
+            <input type="checkbox" id="MD" name="MD" value="MD">
+            <label for="MD">Material Defectuoso</label>
+            <input type="checkbox" id="PTLP" name="PTLP" value="PTLP">
+            <label for="PTLP">Para Todos Los Públicos</label>
+            <br>
+            <input type="checkbox" id="LQAENC" name="LQAENC" value="LQAENC">
+            <label for="LQAENC">Lo Que Aletea En Nuestas Cabezas</label>
+            <input type="checkbox" id="DCPEFDLT" name="DCPEFDLT" value="DCPEFDLT">
+            <label for="DCPEFDLT">Destrozares, Canciones Para El Final De Los Tiempos</label>
+            <input type="checkbox" id="M" name="M" value="M">
+            <label for="M">Mayeutica</label>
+            <input type="checkbox" id="SNLEA" name="SNLEA" value="SNLEA">
+            <label for="SNLEA">Se Nos Lleva El Aire</label>
+            <br>
+            <input type="checkbox" id="PB" name="PB" value="PB">
+            <label for="PB">Poesía Básica</label>
+        </fieldset>
+        <br>
+        <label for="miembro">¿Cuál es el miembro más importante de Extremoduro para tí?</label>
+        <input list="miembros" id="miembro" name="miembro">
+        <datalist id="miembros" name="miembros">
+            <option value="Robe"></option>
+            <option value="Uoho"></option>
+            <option value="Von Fanta"></option>
+            <option value="Salo"></option>
+            <option value="Milindri"></option>
+            <option value="Carlos El Sucio"></option>
+            <option value="Cantera"></option>
+        </datalist>
+        <br>
+        <label for="carta">Escribele una carta a Robe, te juro que la va a leer.</label>
+        <br>
+        <textarea id="carta" name="carta" rows="5" cols="50"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
