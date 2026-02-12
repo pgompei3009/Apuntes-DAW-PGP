@@ -8,7 +8,7 @@ print('1. Densidad de todos los planetas:')
 
 #2. Planeta mayor densidad
 print('\n2. Planeta con mayor densidad')
-mayorDensidad = max(planetas, key=lambda planetas: Planeta.get_densidad(planetas))
+mayorDensidad = max(planetas, key=lambda planeta: Planeta.get_densidad(planeta))
 planetaMayorDensidad = [planeta.nombre for planeta in planetas if Planeta.get_densidad(planeta) == mayorDensidad]
 
 print(f'Planeta con mayor densidad --> {planetaMayorDensidad}: {mayorDensidad}')
@@ -30,6 +30,7 @@ for planeta in planetas:
 print('\n4. Luna más pequeña')
 radios = [[luna[2] for luna in planeta.lunas] for planeta in planetas]
 radioMenor = min(radios)
+print(radios)
 
 for planeta in planetas:
     for luna in planeta.lunas:

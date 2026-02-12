@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0px;
+    background-color: rgb(234, 234, 234);
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+section{
+    border-radius: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.topbar{
+    width: 100%;
+    background-color: #0b4fa8;
+    border-bottom: 3px solid #ffcc00;
+    padding: 1rem;
+    position: fixed;
+
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topbar a{
+    font-weight: bolder;
+    margin: 1rem 1rem 1rem 0.5rem;
+    text-decoration: none;
+    color: white;    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    gap: 1.5rem
+}
+
+.login>*{
+    border: 0;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+
+main{
+    padding-top: 7rem;
+}
+
+#ej2{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1050px;
+}
+
+.eu-intro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.eu-intro>div{
+    width: 50%;
+    margin: 1rem;
+}
+
+#ej3{
+    background-color: white;
+    padding: 1rem;
+    max-width: 1050px;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.flags{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#ej4{
+    background-color: white;
+    padding: 1rem;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.contact-form{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.contact-form>div{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-form>div>*{
+    margin: 0 3rem 0 3rem;
+}
+
+.contact-form label{
+    width: 30%;
+    font-weight: bolder;
+}
+
+.contact-form input, select, textarea{
+    border: 1px solid lightgray;
+    width: 70%;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+}
+
+.form-actions>button{
+    color: white;
+    border: 0;
+    font-weight: bolder;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    background-color: #0b4fa8;
+}
+
+@media (max-width: 768px){
+    .eu-intro{
+        flex-wrap: wrap;
+    }
+
+    .eu-intro>div{
+        width: 100%;
+    }
+
+    .eu-media{
+        order: 1;
+    }
+
+    .contact-form>div{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .contact-form>div>*{
+        margin: 0;
+    }
+
+    .contact-form input, .contact-form select, .contact-form textarea{
+        margin: 1rem 0 1rem 0;
+        width: 100%;
+        order: 1;
+    }
+
+    .contact-form label{
+        width: 100%;
+    }
+
+    .contact-form button{
+        color: white;
+        width: 100%;
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        background-color: #0b4fa8;
+    }
+}

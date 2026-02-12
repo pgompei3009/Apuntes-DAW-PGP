@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+}
+
+body{
+    margin: 0px;
+    background-image: url(assets/fondo.jpg);
+    font-size: 100%;
+}
+
+h1, h2, h3, h4{
+    font-family: "Playfair Display", serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+img{
+    max-width: 100%;
+    border: solid rgb(191, 191, 191);
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+table>caption{
+    text-align: center;
+}
+
+.tabla{
+    overflow-x: auto;
+}
+
+th{
+    background-color: rgb(77, 77, 77);
+}
+
+td{
+    background-color: rgb(43, 43, 43);
+}
+
+#cabecera{
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    font-weight: bolder;
+    border-bottom: solid rgb(165, 165, 165);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* #region menu */
+.menu{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+/* #endregion */
+
+/* #region login */
+.login{
+    padding: 0.7rem 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login *{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(92, 92, 92);
+}
+
+.login input, button{
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+/* #endregion */
+
+.titulo>.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+/* #region indice */
+#indice, main{
+    margin: 2rem;
+}
+
+#indice li{
+    margin: 0.7rem;
+}
+/* #endregion */
+
+/* #region introduccion */
+#introduccion{
+    margin-bottom: 5rem;
+}
+
+#introduccion article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#introduccion .imagen, .texto{
+    width: 50%;
+    padding: 1rem;
+}
+
+#introduccion dl{
+    margin-top: 2rem;
+}
+
+#introduccion dt{
+    font-weight: bolder ;
+    font-size: 150%;
+}
+
+#introduccion dd{
+    margin: 1rem;
+}
+
+#introduccion td, th{
+    border: 3px solid rgb(134, 134, 134);
+    text-align: center;
+    padding: 0.7rem;
+}
+/* #endregion */
+
+/* #region banda */
+.banda{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banda h3, h4{
+    width: 100%;
+    text-align: center;
+}
+
+.banda article{
+    width: 25%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.banda td{
+    border: 2.5px solid rgb(77, 77, 77);
+    text-align: center;
+    padding: 0.3rem;
+}
+
+/* #endregion */
+
+/* #region formulario */
+#formulario{
+    margin-left: 2rem;
+}
+
+#formulario *{
+    border-radius: 10px;
+}
+
+#formulario div{
+    margin-bottom: 1rem;
+}
+
+#formulario input, select{
+    padding: 0.3rem;
+}
+
+.sign-in{
+    width: 100%;
+    font-weight: bolder;
+    background-color: rgb(54, 54, 54);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2.5px solid rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+option, select, datalist, input{
+    color: black;
+}
+
+.portada>*{
+    color: white;
+}
+
+.discos-favoritos{
+    background-color: rgb(109, 109, 109);
+    margin: 1rem;
+}
+
+.album{
+    display: inline-block;
+}
+
+legend{
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+textarea{
+    max-width: 100%;
+    padding: 10px 8px;
+    width: 50%;
+    color: black;
+}
+/* #endregion*/
+
+/* #region media */
+@media (max-width: 992px) {
+    #introduccion .imagen{
+        order: 1;
+        width: 100%;
+    }
+
+    #introduccion>article>*{
+        width: 100%;
+    }
+
+    .banda article{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .banda article{
+        width: 100%;
+    }
+
+}
+/* #endregion */
+

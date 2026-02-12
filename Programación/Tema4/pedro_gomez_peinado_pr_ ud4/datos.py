@@ -3,7 +3,7 @@ from Usuario import Usuario
 from datetime import datetime
 
 
-def get_juegos() -> list:
+def get_juegos() -> list[Videojuego]:
     return [
         Videojuego("Zelda: Breath of the Wild", ["Aventura", "Acción"], datetime(2017, 3, 3), 97, 12, 59.99, 14.4),
         Videojuego("Grand Theft Auto V", ["Acción", "Mundo Abierto"], datetime(2013, 9, 17), 96, 18, 39.99, 72),
@@ -20,7 +20,7 @@ def get_juegos() -> list:
     ]
 
 
-def get_usuarios() -> list:
+def get_usuarios() -> list[Usuario]:
     return [
         Usuario("Paco", "abc", datetime(1987, 3, 5), 0),
         Usuario("Paquirrin", "123", datetime(2010, 4, 4), 75.35)

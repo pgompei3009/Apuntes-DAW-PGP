@@ -45,8 +45,7 @@ for planeta in planetas:
         densidad_tierra = Planeta.get_densidad(planeta)
         break
 
-diferencias_densidad = [(densidad_tierra-densidad) for densidad in densidades_trappist]
+diferencias_densidad = [abs(densidad_tierra-densidad) for densidad in densidades_trappist]
 diferencia_minima = min(diferencias_densidad)
-diferencia_minima_V = abs(diferencia_minima)
 
-print(f'El planeta con la diferencia de densidad menor respecto a La Tierra es {planetas_trappist_densidades[diferencias_densidad.index(diferencia_minima)]} con una diferencia mínima de {diferencia_minima_V} Kg/l')
+print(f'El planeta con la diferencia de densidad menor respecto a La Tierra es {planetas_trappist_densidades[diferencias_densidad.index(diferencia_minima)]} con una diferencia mínima de {diferencia_minima} Kg/l')

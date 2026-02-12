@@ -4,162 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/bellota.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Historias del Rey de Extremadura</title>
 </head>
 <body>
-    <header>
-        <h1>Historias del Rey de Extremadura</h1>
-        <img src="assets/bellota.png" alt="Imagen de la bellota radioactiva de Extremoduro">
-
-        <h2>Indice:</h2>
-        <nav>
-            <ul>
-                <li><a href="#Dulce-Introduccion-al-Caos">Dulce Introducción al Caos</a></li>
-                <li><a href="#Discografias">Discografías</a>       
-                    <ul>
-                        <li><a href="#Extremoduro">Extremoduro</a>
-                            <ol>
-                                <li><a href="#Tu-En-Tu-Casa-Nosotros-En-La-Hoguera">Tu En Tu Casa, Nosotros En La Hoguera</a></li>
-                                <li><a href="#Somos-Unos-Animales">Somos Unos Animales</a></li>
-                                <li><a href="#Deltoya">Deltoya</a></li>
-                                <li><a href="#Donde-Estan-Mis-Amigos">¿Dónde Están Mis Amigos?</a></li>
-                                <li><a href="#Rock-Transgresivo">Rock Transgresivo</a></li>
-                                <li><a href="#Pedra">Pedrá</a></li>
-                                <li><a href="#Agila">Agila</a></li>
-                                <li><a href="#Iros-Todos-A-Tomar-Culo">Iros Todos A Tomar Por Culo</a></li>
-                                <li><a href="#Canciones-Prohibidas">Canciones Prohibidas</a></li>
-                                <li><a href="#Yo-Minoria-Absoluta">Yo, Minoría Absoluta</a></li>
-                                <li><a href="#La-Ley-Innata">La Ley Innata</a></li>
-                                <li><a href="#Material-Defectuoso">Material Defectuoso</a></li>
-                                <li><a href="#Para-Todos-Los-Publicos">Para Todos Los Públicos</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#Robe">Robe</a>
-                            <ol>
-                                <li><a href="#Lo-Que-Aletea-En-Nuestras-Cabezas">Lo Que Aletea En Nuestras Cabezas</a></li>
-                                <li><a href="#Destrozares">Destrozares, Canciones Para El Fin De Los Tiempos</a></li>
-                                <li><a href="#Mayeutica">Mayeutica</a></li>
-                                <li><a href="#Se-Nos-Lleva-El-Aire">Se Nos Lleva El Aire</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#Extrechinato-Y-Tu">Extrechinato y Tú</a>
-                            <ol>
-                                <li><a href="#Poesia-Basica">Poesía Básica</a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+    <header id="cabecera">
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#indice">Indice</a>
+            <a href="#Dulce-Introduccion-al-Caos">Introducción</a>
+            <a href="#Extremoduro">Extremoduro</a>
+            <a href="#Robe">Robe</a>
+            <a href="#Extrechinato-Y-Tu">Extrechinato y Tú</a>
+            <a href="formulario.html">Contacto</a>
         </nav>
-
-        <form>
-            <p>Inicio de sesión</p>
-            <label for="usuario">Nombre de usuario:</label><br>
-            <input type="text" id="usuario" name="usuario" required minlength="3" maxlength="15"><br>
-            <label for="contra">Contraseña:</label><br>
-            <input type="password" id="contra" name="contra" required minlength="7"><br>
-            <button type="submit">Iniciar sesión</button><br><br>
+        <form class="login">
+            <div class="input">
+                <input type="text" id="usuario" name="usuario" required minlength="3" placeholder="Usuario">
+            </div>
+            <div class="input">
+                <input type="password" id="contra" name="contra" required minlength="3" placeholder="Contraseña">
+            </div>
+            <div class="boton">
+                <button type="submit">Iniciar sesión</button>
+            </div>
         </form>
     </header>
+    
     <main>
-        <section>
-            <h2 id="Dulce-Introduccion-al-Caos"> Dulce Introducción al Caos</h2>
-            <p>Esta web ha sido creada con un propósito academico e informativo.</p>
-            <p>El contenido de esta página contiene un resumen de la trayectoria musical del artista español Roberto Iniesta, o "Robe" para acortar, contando su paso desde los inicios de Extremoduro hasta la actualidad.</p>
-            <img src="assets/roberto-iniesta.jpg" alt="Foto de Robe">
-            <br>
-            <dl>
-                <dt>Extremoduro</dt>
-                <dd>Grupo original de Robe (1988-2019)</dd>
-                <dt>Robe (Solista)</dt>
-                <dd>Grupo en solitario de Robe (2013-actualidad)</dd>
-                <dt>Extrechinato y Tú</dt>
-                <dd>Grupo fusión de Extremoduro, Platero y Tú y Manolo Chinato (2001)</dd>
-            </dl>
-            <br>
-            <table border="4">
-                <theader>
-                    <th colspan="4">Lista de canciones de Robe en solitario</th>
-                </theader>             
-                <tbody> 
-                    <tr>
-                        <td><b>Lo Que Aletea En Nuestras Cabezas</b></td>
-                        <td><b>Destrozares, Canciones Para El Fin De Los Tiempos</b></td>
-                        <td><b>Mayeutica (Mejor Album Del Mundo)</b></td>
-                        <td><b>Se Nos Lleva El Aire</b></td>
-                    </tr> 
-                    <tr>
-                        <td>Un Suspiro Acomodado</td>
-                        <td>Hoy Al Mundo Renuncio</td>
-                        <td>Interludio</td>
-                        <td>El Hombre Pájaro</td>
-                    </tr>
-                    <tr>
-                        <td>...Y Rozar Contigo</td>
-                        <td>El Cielo Cambió De Forma</td>
-                        <td rowspan="2">Primer Movimiento</td>
-                        <td>Viajando Por El Interior</td>
-                    </tr>
-                    <tr>
-                        <td>Nana Cruel</td>
-                        <td>Querré Lo Prohibido</td>
-                        <td>Nada Que Perder</td>
-                    </tr>
-                    <tr>
-                        <td>De Manera Urgente</td>
-                        <td>Cartas Desde Gaia</td>
-                        <td rowspan="2">Segundo Movimiento</td>
-                        <td>A La Orilla Del Río</td>
-                    </tr>
-                    <tr>
-                        <td>Por Ser Un Pervertido</td>
-                        <td>Del Tiempo Perdido</td>
-                        <td>El Poder Del Arte</td>
-                    </tr>
-                    <tr>
-                        <td>Ruptura Leve</td>
-                        <td>Por Encima Del Bien Y Del Mal</td>
-                        <td rowspan="2">Tercer Movimiento</td>
-                        <td>Haz Que Tiemble El Suelo</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">Guerrero</td>
-                        <td>Donde Se Rompen Las Olas</td>
-                        <td>Puntos Suspensivos</td>
-                    </tr>
-                    <tr>
-                        <td>Puta Humanidad</td>
-                        <td rowspan="2">Cuarto Movimiento</td>
-                        <td>Inteligible</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">Contra Todos</td>
-                        <td>La Canción Más Triste</td>
-                        <td>Adiós, Cielo Azul, Llegó La Tormenta</td>
-                    </tr>
-                    <tr>
-                        <td>Destrozares</td>
-                        <td>Coda Feliz</td>
-                        <td>Esto No Está Pasando</td>
-                    </tr> 
-                </tbody>
-            </table>
+        <section id="inicio">
+            <div class="titulo">
+                <h1>Historias del Rey de Extremadura</h1>
+                <div class="imagen">
+                    <img src="assets/bellota.png" alt="Imagen de la bellota radioactiva de Extremoduro">
+                </div>
+            </div>
+            <nav id="indice">
+                <h2>Indice:</h2>
+                <ul>
+                    <li><a href="#Dulce-Introduccion-al-Caos">Dulce Introducción al Caos</a></li>
+                    <li><a href="#Discografias">Discografías</a>       
+                        <ul>
+                            <li><a href="#Extremoduro">Extremoduro</a>
+                                <ol>
+                                    <li><a href="#Tu-En-Tu-Casa-Nosotros-En-La-Hoguera">Tu En Tu Casa, Nosotros En La Hoguera</a></li>
+                                    <li><a href="#Somos-Unos-Animales">Somos Unos Animales</a></li>
+                                    <li><a href="#Deltoya">Deltoya</a></li>
+                                    <li><a href="#Donde-Estan-Mis-Amigos">¿Dónde Están Mis Amigos?</a></li>
+                                    <li><a href="#Rock-Transgresivo">Rock Transgresivo</a></li>
+                                    <li><a href="#Pedra">Pedrá</a></li>
+                                    <li><a href="#Agila">Agila</a></li>
+                                    <li><a href="#Iros-Todos-A-Tomar-Culo">Iros Todos A Tomar Por Culo</a></li>
+                                    <li><a href="#Canciones-Prohibidas">Canciones Prohibidas</a></li>
+                                    <li><a href="#Yo-Minoria-Absoluta">Yo, Minoría Absoluta</a></li>
+                                    <li><a href="#La-Ley-Innata">La Ley Innata</a></li>
+                                    <li><a href="#Material-Defectuoso">Material Defectuoso</a></li>
+                                    <li><a href="#Para-Todos-Los-Publicos">Para Todos Los Públicos</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#Robe">Robe</a>
+                                <ol>
+                                    <li><a href="#Lo-Que-Aletea-En-Nuestras-Cabezas">Lo Que Aletea En Nuestras Cabezas</a></li>
+                                    <li><a href="#Destrozares">Destrozares, Canciones Para El Fin De Los Tiempos</a></li>
+                                    <li><a href="#Mayeutica">Mayeutica</a></li>
+                                    <li><a href="#Se-Nos-Lleva-El-Aire">Se Nos Lleva El Aire</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#Extrechinato-Y-Tu">Extrechinato y Tú</a>
+                                <ol>
+                                    <li><a href="#Poesia-Basica">Poesía Básica</a></li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>  
         </section>
-
+        <section id="introduccion">
+            <article>
+                <div class="imagen">
+                    <img src="assets/roberto-iniesta.jpg" alt="Foto de Robe">
+                </div>
+                <div class="texto">
+                    <h2 id="Dulce-Introduccion-al-Caos"> Dulce Introducción al Caos</h2>
+                    <p>Esta web ha sido creada con un propósito academico e informativo.</p>
+                    <p>El contenido de esta página contiene un resumen de la trayectoria musical del artista español Roberto Iniesta, o "Robe" para acortar, contando su paso desde los inicios de Extremoduro hasta su fallecimiento. Robe fue y será el mejor artista que este mundo a dado vida y que a dado vida a este mundo.</p>
+                    <dl>
+                        <dt>Extremoduro</dt>
+                        <dd>Grupo original de Robe (1988-2019)</dd>
+                        <dt>Robe (Solista)</dt>
+                        <dd>Grupo en solitario de Robe (2013-2025)</dd>
+                        <dt>Extrechinato y Tú</dt>
+                        <dd>Grupo fusión de Extremoduro, Platero y Tú y Manolo Chinato (2001)</dd>
+                    </dl>
+                </div>
+            </article>
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Lista de canciones de Robe en solitario</th>
+                        </tr>
+                    </thead>             
+                    <tbody> 
+                        <tr>
+                            <td><b>Lo Que Aletea En Nuestras Cabezas</b></td>
+                            <td><b>Destrozares, Canciones Para El Fin De Los Tiempos</b></td>
+                            <td><b>Mayeutica (Mejor Album Del Mundo)</b></td>
+                            <td><b>Se Nos Lleva El Aire</b></td>
+                        </tr> 
+                        <tr>
+                            <td>Un Suspiro Acomodado</td>
+                            <td>Hoy Al Mundo Renuncio</td>
+                            <td>Interludio</td>
+                            <td>El Hombre Pájaro</td>
+                        </tr>
+                        <tr>
+                            <td>...Y Rozar Contigo</td>
+                            <td>El Cielo Cambió De Forma</td>
+                            <td rowspan="2">Primer Movimiento</td>
+                            <td>Viajando Por El Interior</td>
+                        </tr>
+                        <tr>
+                            <td>Nana Cruel</td>
+                            <td>Querré Lo Prohibido</td>
+                            <td>Nada Que Perder</td>
+                        </tr>
+                        <tr>
+                            <td>De Manera Urgente</td>
+                            <td>Cartas Desde Gaia</td>
+                            <td rowspan="2">Segundo Movimiento</td>
+                            <td>A La Orilla Del Río</td>
+                        </tr>
+                        <tr>
+                            <td>Por Ser Un Pervertido</td>
+                            <td>Del Tiempo Perdido</td>
+                            <td>El Poder Del Arte</td>
+                        </tr>
+                        <tr>
+                            <td>Ruptura Leve</td>
+                            <td>Por Encima Del Bien Y Del Mal</td>
+                            <td rowspan="2">Tercer Movimiento</td>
+                            <td>Haz Que Tiemble El Suelo</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Guerrero</td>
+                            <td>Donde Se Rompen Las Olas</td>
+                            <td>Puntos Suspensivos</td>
+                        </tr>
+                        <tr>
+                            <td>Puta Humanidad</td>
+                            <td rowspan="2">Cuarto Movimiento</td>
+                            <td>Inteligible</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Contra Todos</td>
+                            <td>La Canción Más Triste</td>
+                            <td>Adiós, Cielo Azul, Llegó La Tormenta</td>
+                        </tr>
+                        <tr>
+                            <td>Destrozares</td>
+                            <td>Coda Feliz</td>
+                            <td>Esto No Está Pasando</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <section>
             <h2 id="Discografias">Discografías</h2>
-            <section>
+            <section class="banda">
                 <h3 id="Extremoduro">Extremoduro</h3>
-                <article>
-                    <h4 id="Tu-En-Tu-Casa-Nosotros-En-La-Hoguera">Tu En Tu Casa, Nosotros En La Hoguera</h4>
+                <article id="Tu-En-Tu-Casa-Nosotros-En-La-Hoguera">
+                    <h4>Tu En Tu Casa, Nosotros En La Hoguera</h4>
                     <img src="assets/Tu_En_Tu_Casa.jpg" alt="Imagen del album Tu En Tu Casa, Nostros En La Hoguera">
                     <p>Es el primer album de estudio de Extremoduro, publicado en 1989 bajo el sello de la discográfica Avispa Records.</p>
                     <p>Extremoduro y Avispa Records se conocieron en el concurso de Yamaha del 28 de septiembre de 1989 en la sala Jácara de Madrid. Tras diversas discusiones entre Extremoduro y Avispa Records sobre los presupuestos de la banda, Extremoduro rompió contrato con la discográfica y grabaron su siguiente disco por sus propios medios. Más tarde el album sería regrabado y lanzado de nuevo por Extremoduro bajo el nombre de "Rock Transgresivo" en 1994.</p>
                     <table border="1">
                         <caption>Participantes</caption>
                         <thead>
-                            <th>Nombre</th>
-                            <th>Rol</th>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -183,16 +213,18 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Somos-Unos-Animales"> Somos Unos Animales</h4>
+                <article id="Somos-Unos-Animales">
+                    <h4> Somos Unos Animales</h4>
                     <img src="assets/Somos_Unos_Animales.jpg" alt="Imagen del album Somos Unos Animales">
                     <p>Es el segundo album de estudio de la banda, publicado en 1991 bajo el sello de la propia banda.</p>
                     <p>En este disco, Salo cambia de bajo a guitarra lider gracias a la incorporación de Carlos "El Sucio", bajista conocido en la movida madrileña del que la banda conseguiría muchos contactos importantes. El album introduce las voces femeninas de Belen y María en los coros, amigas de la banda.</p>
                     <table border="1">
                         <caption>Participantes</caption>
                         <thead>
-                            <th>Nombre</th>
-                            <th>Rol</th>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -227,16 +259,18 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Deltoya">Deltoya</h4>
+                <article id="Deltoya">
+                    <h4>Deltoya</h4>
                     <img src="assets/Deltoya.jpg" alt="Imagen del album Deltoya">
                     <p>Es el tercer album de estudio de Extremoduro, publicado en 1992 bajo el sello de la discográfica DRO, subsidiaria de Warner Music.</p>
                     <p>Gracias a los contactos de Carlillos "El Sucio", la banda obtiene una gran selección de discográficas para elegir para su siguiente disco tras el exito y reputación de sus dos primeros albums. Finalmente firmaría con la discográfica DRO tras deslumbrar al cazatalentos Jose Antonio Gómez durante un concierto. Este album puso en el radar a Extremoduro a nivel nacional, consiguiendo menciones en revistas de rock y y heavy metal gracias a himnos como "Sol de Invierno", "De Acero", "Deltoya" o la conocida canción "Ama, Ama, Ama, y Ensancha el Alma", poesía escrita por Manolo Chinato.</p>
                     <table border="1">
                         <caption>Participantes</caption>
                         <thead>
-                            <th>Nombre</th>
-                            <th>Rol</th>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -275,16 +309,18 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Donde-Estan-Mis-Amigos">¿Dónde Están Mis Amgios?</h4>
+                <article id="Donde-Estan-Mis-Amigos">
+                    <h4>¿Dónde Están Mis Amigos?</h4>
                     <img src="assets/Donde_Estan_Mis_Amigos.jpg" alt="Imagen del album ¿Dónde Están Mis Amigos?">
                     <p>Es el cuarto album de estudio de Extremaduro, publicado en 1993 bajo el sello de DRO.</p>
                     <p>Album grabado durante la "era del caos" de Extremoduro. Los integrantes originales de Extremoduro abandonaron la banda por problemas internos, los cambios de formación eran constantes y el consumo de estupefacientes de Robe se disparó, causando que el tono del album sea más oscuro e introspectivo que los anteriores. A pesar de que la crítica no fue tan buena como con los anteriores discos, este album le dió reputación a Robe como artista de culto con canciones como "Bribri blibli" o "Pepe Botika".</p>
                     <table border="1">
                         <caption>Participantes</caption>
                         <thead>
-                            <th>Nombre</th>
-                            <th>Rol</th>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -323,16 +359,18 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Rock-Transgresivo">Rock Transgresivo</h4>
+                <article id="Rock-Transgresivo">
+                    <h4>Rock Transgresivo</h4>
                     <img src="assets/Rock_transgresivo.jpg" alt="Imagen del album Rock Transgresivo">
                     <p>Regrabado del primer album, publicado en 1994 bajo el sello de DRO.</p>
                     <p>La banda consideraba que el primer album no les representaba bien debido a la pobreza de la producción, por lo que decidieron regrabarlo ya que poseían los derechos de composición de las canciones, mientras que Avispa Records solo los derechos de las grabaciones de las canciones. Debido a que la duración del disco original era reducida por el número de canciones, Robe añadió 3 canciones acusticas que grabó para un proyecto aparte llamado "Robe, mi pequeña historia".</p>
                     <table border="1">
                         <caption>Participantes</caption>
                         <thead>
-                            <th>Nombre</th>
-                            <th>Rol</th>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -367,17 +405,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Pedra">Pedrá</h4>
+                <article id="Pedra">
+                    <h4>Pedrá</h4>
                     <img src="assets/Pedra.jpg" alt="Imagen de la portada del sencillo de Pedrá">
                     <p>La mejor canción de 1995 del mundo que dura 29:28. Publicado bajo el sello de DRO.</p>
                     <p>Tras los primeros discos de la banda y sus complicaciones, Robe buscaba hacer un proyecto más experimental y libre en conjunto con otros artistas. Unicialmente la ida era que el proyecto fuese publicado bajo el nombre de la nueva formación de músicos, pero debido a que era un producto tan innovador y arriesgado Pedrá tuvo que publicarse bajo el nombre de Extremoduro. El nombre de la canción hace referencia a uno de los peores conciertos de la banda durante la era del caos, en la que el público arrojó piedras al escenario debido a la pésima actuación de la banda.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe (Extremoduro)</td>
@@ -414,18 +454,20 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Agila">Agíla</h4>
+                <article id="Agila">
+                    <h4>Agíla</h4>
                     <img src="assets/Agila.jpg" alt="Imagen del album Agila">
                     <p>Quinto album de estudio de Extremoduro, publicado en 1996 bajo el sello de DRO.</p>
                     <p>Tras la era del caos, Robe buscaba consolidar a la banda y conseguir un sonido más profesional manteniendo la crudeza que les caracterizaba. Para ello trabajaron en producción con Iñaki Antón "Uoho" de Platero y Tú, que apareció anteriormente en Pedrá y ¿Dónde Estan Mis Amigos? como una "feature", un músico muy profesional que consiguió dar a la banda el orden y profesionalidad que necesitaba tanto en el estudio como en el escenario. Con este disco entraron de lleno en el éxito nacional, consiguiendo que canciones como "So Payaso" o "Buscando Una Luna" sonaran en la radio frecuentemente.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombres</th>
-                            <th>Rol</th>
-                        </theader>
-                        <body>
+                        <thead>
+                            <tr>
+                                <th>Nombres</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
                                 <td>Letrista</td>
@@ -462,21 +504,23 @@
                                 <td>José Sañudo</td>
                                 <td>Saxofón</td>
                             </tr>
-                        </body>
+                        </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Iros-Todos-A-Tomar-Culo">Iros Todos A Tomar Por Culo</h4>
+                <article id="Iros-Todos-A-Tomar-Culo">
+                    <h4>Iros Todos A Tomar Por Culo</h4>
                     <img src="assets/Iros-Todos-Tomar-Por-Culo.jpg" alt="Imagen del album directo Iros Todos A Tomar Por Culo">
                     <p>Album directo de Extremoduro, publicado en 1997 bajo el sello de DRO.</p>
                     <p>Este album está compuesto por distintas grabaciones de las actuaciones de Extremoduro durante su gira con Platero y Tú en 1996. En este album se incorporarían a la plantilla José Ignacio Cantera como batería y Miguel Colino como bajista de forma permanente.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombres</th>
-                            <th>Rol</th>
-                        </theader>
-                        <body>
+                        <thead>
+                            <tr>
+                                <th>Nombres</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td rowspan="2">Robe</td>
                                 <td>Voz</td>
@@ -503,20 +547,22 @@
                                 <td>Miguel Colino</td>
                                 <td>Bajo</td>
                             </tr>
-                        </body>
+                        </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Canciones-Prohibidas">Canciones Prohibidas</h4>
+                <article id="Canciones-Prohibidas">
+                    <h4>Canciones Prohibidas</h4>
                     <img src="assets/Canciones_Prohibidas.jpg" alt="Imagen del sexto album de Extremoduro">
                     <p>Sexto album de estudio de Extremoduro, publicado en 1998 bajo el sello de DRO.</p>
                     <p>Tras el éxito de Agila y el comienzo de una época de tranquilidad y orden en la banda, la banda buscaba hacer material más experimental y progresivo con arreglos y composición más elaborados y balancear la crudeza de los intrumentos en los directos y la claridad en el estudio. El album no fue tan exitoso como su predecesor pero consiguió mantener a Extremoduro en el punto de mira y solidificar su posición como banda nacional con himnos como "Salir" o "Golfa".</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -549,17 +595,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Yo-Minoria-Absoluta">Yo, Minoría Absoluta</h4>
+                <article id="Yo-Minoria-Absoluta">
+                    <h4>Yo, Minoría Absoluta</h4>
                     <img src="assets/Yo_Minoria_Absoluta.jpg" alt="Imagen del album Yo, Minoría Absoluta">
                     <p>Sétimo album de estudio de Extremoduro, publicado en 2002 bajo el sello de DRO.</p>
                     <p>Después del éxito de los últimos dos discos, Extremoduro ya se había consolidado como uno de los mayores exponentes del rock español. Este album estableció un punto de madurez en el grupo, demostrando la versatilidad del grupo encuanto a géneros musicales y creatividad, la crudeza e intensidad de las canciones más frenéticas, canciones más pausadas con significados tanto románticos como de lucha social y un baul de himnos como "A Fuego", "La Vereda de la Puerta de Atrás" y "Stand By".</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -589,17 +637,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="La-Ley-Innata">La Ley Innata</h4>
+                <article id="La-Ley-Innata">
+                    <h4>La Ley Innata</h4>
                     <img src="assets/La_Ley_Innata.jpg" alt="Imagen del album La Ley Innata">
                     <p>Octavo album de estudio de Extremoduro, publicado en 2008 bajo el sello de Warner Music.</p>
                     <p>Yo, Minoría Absoluta fue el mayor exito de la banda hasta la fecha, tras el cual Robe entraria en un bloqueo creativo que no le permitiría sacar nuevo material en 6 años. Esta sequía creativa desembocaría en la magnum opus de la banda, un album mucho más melódico y experimental que ningun otro. El album consiste en una canción de 45 minutos dividia en diferentes partes que al llegar al final se repite de nuevo, con letras profundas, filosóficas y emotivas y una composición sublime.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -639,17 +689,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Material-Defectuoso">Material Defectuoso</h4>
+                <article id="Material-Defectuoso">
+                    <h4>Material Defectuoso</h4>
                     <img src="assets/Material_Defectuoso.jpg" alt="Imagen del album Material Defectuoso">
                     <p>Noveno album de estudio de Extremoduro, publicado en 2011 bajo el sello de Warner Music.</p>
                     <p>Extremoduro se encuentra en su época de mayor madurez después de haber lanzado un proyecto tan conceptual y pulido como La Ley Innata. En esta etapa, Robe se encontraba en un momento de ruptura personal, lo que concluyó en un proyecto mucho más minimalista su predecesor, sacrificando crudeza a cambio de melodía, pero igual de profundo, con letras explorando la soledad en "Tango Suicida", la fugacidad del tiempo en "Calle Esperanza s/n" y el sentido de la vida en "Desarraigo" y "Otra Inutil Canción para la Paz". El album no tuvo ninguna campaña publicitaria, ni siquiera se anunció su salida pero igualmente fue un completo éxito.</p>
                     <table border="1">
-                        <caption></caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <caption>Participantes</caption>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -681,18 +733,20 @@
                             </tr>
                         </tbody>
                     </table>
-                </article>                
+                </article id="Para-Todos-Los-Publicos">                
                 <article>
-                    <h4 id="Para-Todos-Los-Publicos">Para Todos Los Públicos</h4>
+                    <h4>Para Todos Los Públicos</h4>
                     <img src="assets/Para_Todos_Los_Publicos.jpg" alt="Imagen del album Para Todos Los Públicos">
                     <p>El décimo y último album de estudio de Extremoduro, publicado en 2013 bajo el sello de Warner Music.</p>
                     <p>El disco que pone fin a la discografía de Extremoduro y un disco muy variado melódica y poéticamente, recuperando el sonido intenso y distorsionado de la banda en temas como "¡Qué Borde era mi Valle!" o "Mi Voluntad", manteniendo el estilo experimental y progresivo de los anteriores discos en "Locura Transitoria" y "El Camino de las Utopías" y demostrando el dominio de la expresión emocional de Robe tanto en el amor como en la decadencia de la persona en canciones como "Mamá" o "Poema Sobrecogido". Tras este disco la banda daría un parón creativo en el que Robe comenzaría su carrera en solitario buscando cambiar de ambiente.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -726,19 +780,21 @@
                     </table>
                 </article>
             </section>
-            <section>
+            <section class="banda">
                 <h3 id="Robe">Robe</h3>
-                <article>
-                    <h4 id="Lo-Que-Aletea-En-Nuestras-Cabezas">Lo Que Aletea En Nuestras Cabezas</h4>
+                <article id="Lo-Que-Aletea-En-Nuestras-Cabezas">
+                    <h4>Lo Que Aletea En Nuestras Cabezas</h4>
                     <img src="assets/Lo_Que_Aletea_En_Nuestras_Cabezas.jpg" alt="Imagen del album Lo Que Aletea En Nuestras Cabezas">
                     <p>Primer album de estudio de la carrera en solitario de Robe, publicado en 2015 bajo el sello de El Dromedario Records.</p>
                     <p>Después de haber publicado Para Todos Los Públicos con Extremoduro, Robe quería desplazarse un poco de la banda y hacer algo diferente. Los integrantes de su nueva banda son músicos extremeños con talento y ganas que conoció y que le cayeron bien, no que buscó para tener la plantilla más profesional posible. Con esta plantilla entro en el estudio y grabó un disco sin saber lo que buscaba, buscando la experimentación y la improvisación ya que lo que buscaban era divertirse haciendo música. En 2015 salió el album a la luz y a pesar de que se alejaba completamente del sonido de Extremoduro fue un éxito y debutó como disco número 1 del año.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -785,17 +841,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Destrozares">Destrozares, Canciones Para El Fin De Los Tiempos</h4>
+                <article id="Destrozares">
+                    <h4>Destrozares, Canciones Para El Fin De Los Tiempos</h4>
                     <img src="assets/Destrozares.jpg" alt="Imagen del album Destrozares">
                     <p>Segundo album de estudio en solitario de Robe, publicado en 2016 bajo el sello de El Dromedario Records.</p>
                     <p>Tras el éxito del primer album, Robe se puso manos a la obra para sacar más material. En este disco Robe busca una evolución personal y artística, hablando sobre la humanidad con una visión crítica y pesimista llamandola "una panda de gentuza que ha dejado el planeta hecho un asco" en una entrevista.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -842,17 +900,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Mayeutica">Mayeutica</h4>
+                <article id="Mayeutica">
+                    <h4>Mayeutica</h4>
                     <img src="assets/Mayeutica.jpg" alt="Imagen del album Mayeutica">
                     <p>Tercer album de estudio en solitario de Robe, publicado en 2021 bajo el sello de El Dromedario Records.</p>
                     <p>Este disco es la secuela espiritual de La Ley Innata de Extremoduro y se creó en 2018 con motivo de conmemorar el décimo aniversario de la publicación de este. Inicialmente el disco fue trabajado por Extremoduro cuando la banda seguía activa pero acabó transportando el proyecto a su banda en solitario y se incorporó a Woody Amores para ocupar el lugar de guitarrista líder. En a finales de 2019 Extremoduro aunució su separación y se pospuso el lanzamiento de Mayeutica para que no interfiriese con la gira de despedida de 2020, la cual sería cancelada por la pandemia del COVID-19 y finalmente sería publicado en 2021 convirtiendose en uno de los mejores proyectos de la carrera de Robe.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -903,17 +963,19 @@
                         </tbody>
                     </table>
                 </article>
-                <article>
-                    <h4 id="Se-Nos-Lleva-El-Aire">Se Nos Lleva El Aire</h4>
+                <article id="Se-Nos-Lleva-El-Aire">
+                    <h4>Se Nos Lleva El Aire</h4>
                     <img src="assets/Se_Nos_Lleva_El_Aire.jpg" alt="Imagen del album Se Nos Lleva El Aire">
                     <p>Cuarto album de estudio en solitario de Robe, publicado en 2023 bajo el sello de El Dromedario Records.</p>
                     <p>Posterior a la publicación y éxito absoluto de Mayeutica, Robe lanza un nuevo album volviendo a la estructura convencional de album por canciones. La composición del album mantiene el sonido consolidado de la banda aumentando ligeramente la distorsión en canciones como "Viajando por el Interior" o "Inteligible" y manteniendo la poesía introspectiva de Robe en canciones como "El Poder del Arte" o "Puntos Suspendidos".</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="3">Robe</td>
@@ -965,19 +1027,21 @@
                     </table>
                 </article>
             </section>       
-            <section>
+            <section class="banda">
                 <h3 id="Extrechinato-Y-Tu">Extrechinato y Tú</h3>
-                <article>
-                    <h4 id="Poesia-Basica">Poesía Básica</h4>
+                <article id="Poesia-Basica">
+                    <h4>Poesía Básica</h4>
                     <img src="assets/Poesia_Basica.jpg" alt="Imagen del album Poesía Básica">
                     <p>Único disco de Extrechinato y Tú, publicado en 2001 bajo el sello de DRO.</p>
                     <p>Esta banda es una fusión entre Extremoduro y Platero y Tú con el poeta Manolo Chinato. El origen de este proyecto es la admiración que los músicos de estos grupos sentían ante la poesía de Chinato, buscando fusionar sus letras con rock para crear un disco experimental que es considerado una obra única y de culto. Para las canciones se pidió a Chinato que eligiese los poemas que más cariño les tenía y en propio disco hay secciones en las que los recita.</p>
                     <table border="1">
                         <caption>Participantes</caption>
-                        <theader>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                        </theader>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="2">Manolo Chinato</td>
@@ -1023,141 +1087,4 @@
             </section>
         </section>
     </main>
-    <footer>
-    <p>Este es el final de la página, si quieres hacer un formulario sobre Robe pinche <a href="formulario.html">AQUÍ</a>.</p>
-    </footer>
 </body>
-<!-- AYUDA LA PAGINA SE ME CORTA POR ALGUNA RAZON Y HE TENIDO QUE PONER TODAS ESTAS Gs PARA QUE NO SE QUEDE EN MITAD DE LA TABLA DE POESÍA BÁSICA -->
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-<p>g</p>
-</html>
