@@ -10,6 +10,5 @@ lista_bandas = [
     Banda(5, 'Extremoduro', 9.45, False, datetime(1990, 2, 2), datetime(2025, 12, 10), ['Roberto Iniesta', 'Salo', 'Von Fanta'])
 ]
 
-Banda.integrantes_comunes(lista_bandas[2], lista_bandas[4])
+print(lista_bandas[2])
 
-print(lista_bandas[0] == lista_bandas[1])

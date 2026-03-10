@@ -1,0 +1,32 @@
+{
+    "nombre": "Link",
+    "nivel": 60,
+    "experiencia": 777524440,
+    "localizacion": "Templo del Tiempo",
+    "inventario": [
+        {
+            "nombre": "Espada maestra",
+            "danio": 30,
+            "durabilidad": 999,
+            "cantidad": 1
+        },
+        {
+            "nombre": "Nuez deku",
+            "danio": 0,
+            "durabilidad": 0,
+            "cantidad": 20
+        },
+        {
+            "nombre": "Bombas",
+            "danio": 30,
+            "durabilidad": 0,
+            "cantidad": 20
+        },
+        {
+            "nombre": "Gancho",
+            "danio": 15,
+            "durabilidad": 999,
+            "cantidad": 1
+        }
+    ]
+}

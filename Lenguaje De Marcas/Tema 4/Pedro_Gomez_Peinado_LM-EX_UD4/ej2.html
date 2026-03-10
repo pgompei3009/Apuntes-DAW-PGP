@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ej2.js" defer></script>
+    <title>ej2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <p>Introduce los datos del vieje y calcula el consumo (L/100 km) y el coste total</p>
+    <form id="formulario">
+        <label for="km">Kilómetros recorridos (km)</label>
+        <input type="number" name="km" id="km" step="0.01" placeholder="Ej: 185.5">
+        <br>
+        <label for="L">Litros consumidos (L)</label>
+        <input type="number" name="L" id="L" step="0.01" placeholder="Ej: 12.30">
+        <br>
+        <label for="€">Precio por litro (€)</label>
+        <input type="number" name="€" id="€" step="0.001" placeholder="Ej: 1.679">
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+    <p>Consumo: <span id="consumo"></span></p>
+    <p>Coste total: <span id="coste"></span></p>
+</body>
+</html>

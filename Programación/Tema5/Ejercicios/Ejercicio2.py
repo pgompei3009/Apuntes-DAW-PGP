@@ -13,7 +13,7 @@ class Banda:
 
     
     def __str__(self):
-        if len(self.artistas) > 1:
+        if len(self.integrantes_og) > 1:
             str_integrantes = ', '.join(self.integrantes_og[:-1])
             str_integrantes += ' y '.join(self.integrantes_og[-1])
         else:

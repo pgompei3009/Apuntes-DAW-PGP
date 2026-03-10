@@ -1,0 +1,66 @@
+{
+    "modulos_ciclo": [
+        {
+            "id": 1,
+            "nombre": "Programación"
+        },
+
+        {
+            "id": 2,
+            "nombre": "Sistemas informáticos"
+        },
+
+        {
+            "id": 3,
+            "nombre": "Lenguaje de marcas"
+        },
+
+        {
+            "id": 4,
+            "nombre": "Entornos de desarrollo"
+        },
+
+        {
+            "id": 5,
+            "nombre": "Bases de datos"
+        },
+
+        {
+            "id": 6,
+            "nombre": "Sostenibilidad"
+        },
+
+        {
+            "id": 7,
+            "nombre": "IPE"
+        },
+
+        {
+            "id": 8,
+            "nombre": "Digitalización"
+        },
+
+        {
+            "id": 9,
+            "nombre": "Inglés profesional I"
+        }
+    ],
+
+    "alumnos": [
+        {
+            "id": 1,
+            "nombre": "Jacinto",
+            "modulos": [1, 3]
+        },
+        {
+            "id": 2,
+            "nombre": "Paco",
+            "modulos": [2, 4, 5]
+        },
+        {
+            "id": 3,
+            "nombre": "Enrique",
+            "modulos": [6, 7, 8, 9]
+        }
+    ]
+}

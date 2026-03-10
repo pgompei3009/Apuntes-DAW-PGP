@@ -11,17 +11,11 @@ form.addEventListener("submit", (event) => {
 
     if (imc<18.5){
         resultado = "Tienes bajo peso"
-    }
-
-    else if (imc>=18.5 && imc<24.9){
+    } else if (imc>=18.5 && imc<24.9) {
         resultado = "Tienes un peso normal"
-    }
-
-    else if (imc>=24.9 && imc<29.9){
+    } else if (imc>=24.9 && imc<29.9) {
         resultado = "Tienes sobrepeso"
-    }
-
-    else{
+    } else {
         resultado = "Tiene obesidad"
     }
 

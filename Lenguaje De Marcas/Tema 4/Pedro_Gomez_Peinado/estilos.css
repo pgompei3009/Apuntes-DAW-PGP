@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#piedra-papel-y-tal {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+#menu {
+    width: 90px;
+}
+
+#opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#opciones button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #888;
+    background-color: #f0f0f0;
+    font-size: 26px;
+}
+
+#jugar {
+    width: 70px;
+    padding: 6px;
+    border: 1px solid #888;
+    background-color: #e0e0e0;
+}
+
+#texto {
+    width: 100%;
+    background-color: #ededed;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+}
+
+#marcador {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#resultado {
+    font-size: 14px;
+}
