@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Videojuegos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Quiz de Videojuegos</h1>
+        <p class="subtitulo">¿Cuánto sabes del mundo gamer? ¡Demuéstralo!</p>
+
+        <form action="/resultado" method="POST">
+            {% for pregunta in preguntas %}
+            <div class="pregunta">
+                <h2>{{ loop.index }}. {{ pregunta.texto }}</h2>
+                <ul>
+                    {% for opcion in pregunta.opciones %}
+                    <li>
+                        <label>
+                            <input type="radio" name="question_{{ pregunta.id }}" value="{{ opcion.id }}" required>
+                            {{ opcion.texto }}
+                        </label>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+
+            <button type="submit" class="btn">⚔️ Ver resultado</button>
+        </form>
+    </div>
+</body>
+</html>

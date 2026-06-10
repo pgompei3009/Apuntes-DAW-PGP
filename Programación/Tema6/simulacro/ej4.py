@@ -1,4 +1,4 @@
-from ej1 import Cuenta, CuentaAhorro, CuentaCorriente
+from ej1_2_3 import CuentaAhorro, CuentaCorriente
 
 
 cc1 = CuentaCorriente('Ana López', 'ES001', 500.0, 300.0)

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.juegos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+h2.card-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #222;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}

@@ -1,0 +1,2 @@
+tipo_dado=d20
+num_tiradas=5

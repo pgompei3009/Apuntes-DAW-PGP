@@ -1,0 +1,102 @@
+{
+    "cartas": [
+        {
+            "id": 1,
+            "nombre": "Strike",
+            "tipo": "Ataque",
+            "coste": 0,
+            "desc": "Hace 6 de daño",
+            "efectos": {
+                "daño": 6
+            }
+        },
+        {
+            "id": 2,
+            "nombre": "Defend",
+            "tipo": "Habilidad",
+            "coste": 1,
+            "desc": "Gana 5 de defensa",
+            "efectos": {
+                "defensa": 5
+            }
+        },
+        {
+            "id": 3,
+            "nombre": "Bash",
+            "tipo": "Ataque",
+            "coste": 2,
+            "desc": "Hace 8 de daño y aplica 2 de vulnerabilidad",
+            "efectos": {
+                "daño": 8,
+                "vulnerabilidad": 2
+            }
+        },
+
+        {
+            "id": 4,
+            "nombre": "Survivor",
+            "tipo": "Habilidad",
+            "coste": 1,
+            "desc": "Gana 8 de defensa y descarta una carta",
+            "efectos": {
+                "defensa": 8,
+                "descarte": 1
+            }
+        },
+        {
+            "id": 5,
+            "nombre": "Neutraliza",
+            "tipo": "Ataque",
+            "coste": 0,
+            "desc": "Hace 3 de daño y aplica 1 de debilidad",
+            "efectos": {
+                "daño": 3,
+                "debilidad": 1
+            }
+        },
+
+        {
+            "id": 6,
+            "nombre": "Zap",
+            "tipo": "Habilidad",
+            "coste": 1,
+            "desc": "Canaliza un rayo",
+            "efectos": {
+                "rayo": 1
+            }
+        },
+        {
+            "id": 7,
+            "nombre": "Dualcast",
+            "tipo": "Habilidad",
+            "coste": 1,
+            "desc": "Evoca tu próximo orbe 2 veces",
+            "efectos": {
+                "evocar": 2
+            }
+        },
+
+        {
+            "id": 8,
+            "nombre": "Eruption",
+            "tipo": "Ataque",
+            "coste": 2,
+            "desc": "Hace 9 de daño y aplica ira",
+            "efectos": {
+                "daño": 9,
+                "ira": true
+            }
+        },
+        {
+            "id": 9,
+            "nombre": "Vigilance",
+            "tipo": "Habilidad",
+            "coste": 2,
+            "desc": "Gana 8 de defensa y aplica calma",
+            "efectos": {
+                "defensa": 8,
+                "calma": true
+            }
+        }
+    ]
+}

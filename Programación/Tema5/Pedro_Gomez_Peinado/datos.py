@@ -3,7 +3,7 @@ from Banda import Banda
 from BibliotecaBandas import Biblioteca_Bandas
 
 
-def get_datos(indice: int) -> object:
+def get_datos(indice: int) -> list[Banda]:
     return coleccion_de_bandas[indice]
 
 

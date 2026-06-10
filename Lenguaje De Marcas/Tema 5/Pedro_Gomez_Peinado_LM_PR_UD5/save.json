@@ -1,0 +1,126 @@
+{
+    "usuario": [
+        {
+            "id": 10,
+            "nombre": "Borja",
+            "nivel": 1,
+            "xp": 0,
+            "fecha-creacion": "2026-03-13",
+            "fecha-acceso": null,
+            "pase-batalla": false,
+            "logros": {
+
+            },
+            "personajes": [
+
+            ]
+        },
+        {
+            "id": 11,
+            "nombre": "XxAlbertito_gamer777xX",
+            "nivel": 99,
+            "xp": 999999999,
+            "fecha-creacion": "2021-12-25",
+            "fecha-acceso": "2026-03-14",
+            "pase-batalla": true,
+            "logros": {
+                "el-guardian": true,
+                "el-fantasma": true,
+                "el-jefe": true,
+                "el-campeon": true,
+                "asciende0": true,
+                "el-automata": true,
+                "coleccionista": true,
+                "el-pacto": true,
+                "adrenalina": true,
+                "no-hagas-caso": true,
+                "perfecto": true,
+                "rubi": true,
+                "las-figuras": true,
+                "el cuervo": true,
+                "ven-a-mi": true,
+                "plaga": true,
+                "esmeralda": true,
+                "el-devorador-del-tiempo": true,
+                "zafiro": true,
+                "impenetrable": true,
+                "catalizador": true,
+                "poderoso": true,
+                "ninja": true,
+                "amatista": true,
+                "mi-dia-de-suerte": true,
+                "jaxxeado": true,
+                "infinito": true,
+                "pureza": true,
+                "rubi_plus": true,
+                "esmeralda_plus": true,
+                "asciende10": true,
+                "el-transitorio": true,
+                "zafiro_plus": true,
+                "amatista_plus": true,
+                "el-final": true,
+                "atrincherado": true,
+                "no-eres-nada": true,
+                "oh-rosquilla": true,
+                "asciende20": true,
+                "escalador-veloz": true,
+                "neon": true,
+                "concentrado": true,
+                "minimalista": true,
+                "sentido-comun": true,
+                "quien-necesita-reliquias": true,
+                "el-eterno": true
+            },
+            "personajes": [
+                {
+                    "nombre": "Ironclad",
+                    "clase": "Berserker",
+                    "raza": "Demonio",
+                    "nivel": 60,
+                    "vida-maxima": 150000,
+                    "vida-actual": 125750,
+                    "oro": 9999999,
+                    "coordenadas": [-150, 350, 30],
+                    "activa": false,
+                    "mazo": [1, 1, 1, 1, 1, 2, 2, 2, 2, 3]
+                },
+                {
+                    "nombre": "Silent",
+                    "clase": "Asesina",
+                    "raza": "Elfa",
+                    "nivel": 60,
+                    "vida-maxima": 85000,
+                    "vida-actual": 85000,
+                    "oro": 9999999,
+                    "coordenadas": [569, 55, -47],
+                    "activa": false,
+                    "mazo": [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 4, 5]
+                },
+                {
+                    "nombre": "Defect",
+                    "clase": "Hechicero",
+                    "raza": "Automaton",
+                    "nivel": 60,
+                    "vida-maxima": 125000,
+                    "vida-actual": 65000,
+                    "oro": 9999999,
+                    "coordenadas": [12, -50, 566],
+                    "activa": false,
+                    "mazo": [1, 1, 1, 1, 2, 2, 2, 2, 6, 7]
+                },
+                {
+                   "nombre": "Watcher",
+                   "clase": "Monje",
+                   "raza": "Humana",
+                   "nivel": 13,
+                   "vida-maxima": 12000,
+                   "vida-actual": 8000,
+                   "oro": 524,
+                   "coordenadas": [211, -4, 50],
+                   "activa": true,
+                   "mazo": [1, 1, 1, 1, 2, 2, 2, 2, 8, 9]
+                }
+            ]
+        }
+    ]
+}

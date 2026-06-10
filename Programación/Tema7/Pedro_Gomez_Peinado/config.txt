@@ -1,0 +1,2 @@
+longitud=20
+modo=3

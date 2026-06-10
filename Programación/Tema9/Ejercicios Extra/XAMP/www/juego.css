@@ -1,0 +1,33 @@
+/* ---- Página detalle del juego ---- */
+.container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.container img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.container {
+    max-width: 25%;
+    margin: 40px auto;
+    text-align: center;
+}

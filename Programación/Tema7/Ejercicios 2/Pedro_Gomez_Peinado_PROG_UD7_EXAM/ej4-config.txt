@@ -1,0 +1,5 @@
+inicio:1
+fin:100
+cantidad:150
+salida:fichero
+solo_primos:false

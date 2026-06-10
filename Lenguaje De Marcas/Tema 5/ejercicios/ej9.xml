@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <nombre>Mohammed Akbar Mahib</nombre>
+    <idioma>ar</idioma>
+    <tema>oscuro</tema>
+    <tamaño_fuente>12</tamaño_fuente>
+    <autoguardado>true</autoguardado>
+    <extensiones>
+        <extension>No se</extension>
+    </extensiones>
+</config>

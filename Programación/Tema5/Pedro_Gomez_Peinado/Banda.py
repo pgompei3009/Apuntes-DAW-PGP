@@ -2,7 +2,7 @@ from datetime import date
 
 
 class Banda:
-    def __init__(self, id: int, nombre: str, generos: list[str], nota_discografia: float, activa: bool, fecha_primer_album: date, fecha_muerte: date, integrantes: dict[str, str]):
+    def __init__(self, id: int, nombre: str, generos: list[str], nota_discografia: float, activa: bool, fecha_primer_album: date, fecha_muerte: date, integrantes: dict[str, str]) -> None:
         self.id = id
         self.nombre = nombre
         self.generos = generos
@@ -12,7 +12,7 @@ class Banda:
         self.fecha_muerte = fecha_muerte
         self.integrantes = integrantes
     
-    def __str__(self):
+    def __str__(self) -> str:
         if len(self.generos) > 1:
             str_generos = ', '.join(self.generos[:-1])
             str_generos += f' y {self.generos[-1]}'
@@ -38,5 +38,5 @@ class Banda:
             return self.id == other.id
         return False
 
-    def __hash__(self):
-        return self.id
+    def __hash__(self) -> hash:
+        return hash(self.id)

@@ -1,0 +1,4 @@
+valor_minimo=1
+valor_maximo=10
+intentos=5
+pistas=no

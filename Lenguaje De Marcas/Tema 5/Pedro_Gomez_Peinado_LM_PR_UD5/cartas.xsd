@@ -1,0 +1,38 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="cartas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="carta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:integer"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="tipo" type="xs:string"/>
+                            <xs:element name="coste" type="xs:integer"/>
+                            <xs:element name="desc" type="xs:string"/>
+                            
+                            <xs:element name="efectos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="daño" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="defensa" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="vulnerabilidad" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="descarte" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="debilidad" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="rayo" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="evocar" type="xs:integer" minOccurs="0"/>
+                                        <xs:element name="ira" type="xs:boolean" minOccurs="0"/>
+                                        <xs:element name="calma" type="xs:boolean" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

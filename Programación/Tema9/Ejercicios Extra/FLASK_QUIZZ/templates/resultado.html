@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado - Quiz Videojuegos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 Resultado</h1>
+
+        <div class="resultado-resumen">
+            <div class="rango">{{ rango }}</div>
+            <p class="mensaje">{{ mensaje }}</p>
+            <p class="puntuacion">Has acertado <strong>{{ correctas }}</strong> de <strong>{{ total }}</strong> preguntas ({{ porcentaje }}%)</p>
+        </div>
+
+        <div class="respuestas">
+            <h2>Resumen de respuestas</h2>
+            {% for r in resultados %}
+            <div class="respuesta {{ 'correcta' if r.es_correcta else 'incorrecta' }}">
+                <p class="pregunta-texto">{{ loop.index }}. {{ r.pregunta }}</p>
+                <p>Tu respuesta: <strong>{{ r.elegida }}</strong></p>
+                {% if not r.es_correcta %}
+                <p>Respuesta correcta: <strong>{{ r.correcta }}</strong></p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <a href="index.html" class="btn">🔄 Volver a intentarlo</a>
+    </div>
+</body>
+</html>

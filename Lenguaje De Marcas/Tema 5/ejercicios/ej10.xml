@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personaje>
+    <nombre>Link</nombre>
+    <nivel>60</nivel>
+    <experiencia>777524440</experiencia>
+    <localizacion>Templo del Tiempo</localizacion>
+    
+    <inventario>
+        <item>
+            <nombre>Espada maestra</nombre>
+            <danio>30</danio>
+            <durabilidad>999</durabilidad>
+            <cantidad>1</cantidad>
+        </item>
+        <item>
+            <nombre>Nuez deku</nombre>
+            <danio>0</danio>
+            <durabilidad>0</durabilidad>
+            <cantidad>20</cantidad>
+        </item>
+        <item>
+            <nombre>Bombas</nombre>
+            <danio>30</danio>
+            <durabilidad>0</durabilidad>
+            <cantidad>20</cantidad>
+        </item>
+        <item>
+            <nombre>Gancho</nombre>
+            <danio>15</danio>
+            <durabilidad>999</durabilidad>
+            <cantidad>1</cantidad>
+        </item>
+    </inventario>
+</personaje>

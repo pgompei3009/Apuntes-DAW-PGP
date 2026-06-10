@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matricula>
+    <modulos_ciclo>
+        <modulo>
+            <id>1</id>
+            <nombre>Programación</nombre>
+        </modulo>
+        <modulo>
+            <id>2</id>
+            <nombre>Sistemas informáticos</nombre>
+        </modulo>
+        <modulo>
+            <id>3</id>
+            <nombre>Lenguaje de marcas</nombre>
+        </modulo>
+        <modulo>
+            <id>4</id>
+            <nombre>Entornos de desarrollo</nombre>
+        </modulo>
+        <modulo>
+            <id>5</id>
+            <nombre>Bases de datos</nombre>
+        </modulo>
+        <modulo>
+            <id>6</id>
+            <nombre>Sostenibilidad</nombre>
+        </modulo>
+        <modulo>
+            <id>7</id>
+            <nombre>IPE</nombre>
+        </modulo>
+        <modulo>
+            <id>8</id>
+            <nombre>Digitalización</nombre>
+        </modulo>
+        <modulo>
+            <id>9</id>
+            <nombre>Inglés profesional I</nombre>
+        </modulo>
+    </modulos_ciclo>
+
+    <alumnos>
+        <alumno>
+            <id>1</id>
+            <nombre>Jacinto</nombre>
+            <modulos>
+                <modulo_id>1</modulo_id>
+                <modulo_id>3</modulo_id>
+            </modulos>
+        </alumno>
+        <alumno>
+            <id>2</id>
+            <nombre>Paco</nombre>
+            <modulos>
+                <modulo_id>2</modulo_id>
+                <modulo_id>4</modulo_id>
+                <modulo_id>5</modulo_id>
+            </modulos>
+        </alumno>
+        <alumno>
+            <id>3</id>
+            <nombre>Enrique</nombre>
+            <modulos>
+                <modulo_id>6</modulo_id>
+                <modulo_id>7</modulo_id>
+                <modulo_id>8</modulo_id>
+                <modulo_id>9</modulo_id>
+            </modulos>
+        </alumno>
+    </alumnos>
+</matricula>

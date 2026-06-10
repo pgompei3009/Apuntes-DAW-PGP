@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Stone Temple Pilots",
+    "albums": 7,
+    "cantante": "Scott Weiland"
+  },
+  {
+    "id": 2,
+    "nombre": "Soundgarden",
+    "albums": 7,
+    "cantante": "Chriss Cornell"
+  },
+  {
+    "id": 3,
+    "nombre": "Alice in Chains",
+    "albums": 7,
+    "cantante": "Layne Staley"
+  }
+]

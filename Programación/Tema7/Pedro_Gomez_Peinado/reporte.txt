@@ -1,0 +1,15 @@
+REPORTE METEOROLÓGICO
+=====================
+
+Temperatura mínima absoluta:
+- Día: 2026-04-23
+- Temperatura: 9.8 ºC
+
+Temperatura máxima absoluta:
+- Día: 2026-05-15
+- Temperatura: 32.5 ºC
+
+media de temperaturas mínimas: 13.83 ºC
+media de temperaturas máximas: 26.16 ºC
+media de precipitaciones: 1.25 mm
+media de temperaturas medias: 20.03 ºC

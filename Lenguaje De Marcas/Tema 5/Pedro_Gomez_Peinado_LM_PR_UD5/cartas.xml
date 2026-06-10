@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="cartas.xsd">
+    <carta>
+        <id>1</id>
+        <nombre>Strike</nombre>
+        <tipo>Ataque</tipo>
+        <coste>0</coste>
+        <desc>Hace 6 de daño</desc>
+        <efectos>
+            <daño>6</daño>
+        </efectos>
+    </carta>
+    <carta>
+        <id>2</id>
+        <nombre>Defend</nombre>
+        <tipo>Habilidad</tipo>
+        <coste>1</coste>
+        <desc>Gana 5 de defensa</desc>
+        <efectos>
+            <defensa>5</defensa>
+        </efectos>
+    </carta>
+    <carta>
+        <id>3</id>
+        <nombre>Bash</nombre>
+        <tipo>Ataque</tipo>
+        <coste>2</coste>
+        <desc>Hace 8 de daño y aplica 2 de vulnerabilidad</desc>
+        <efectos>
+            <daño>8</daño>
+            <vulnerabilidad>2</vulnerabilidad>
+        </efectos>
+    </carta>
+    <carta>
+        <id>4</id>
+        <nombre>Survivor</nombre>
+        <tipo>Habilidad</tipo>
+        <coste>1</coste>
+        <desc>Gana 8 de defensa y descarta una carta</desc>
+        <efectos>
+            <defensa>8</defensa>
+            <descarte>1</descarte>
+        </efectos>
+    </carta>
+    <carta>
+        <id>5</id>
+        <nombre>Neutraliza</nombre>
+        <tipo>Ataque</tipo>
+        <coste>0</coste>
+        <desc>Hace 3 de daño y aplica 1 de debilidad</desc>
+        <efectos>
+            <daño>3</daño>
+            <debilidad>1</debilidad>
+        </efectos>
+    </carta>
+    <carta>
+        <id>6</id>
+        <nombre>Zap</nombre>
+        <tipo>Habilidad</tipo>
+        <coste>1</coste>
+        <desc>Canaliza un rayo</desc>
+        <efectos>
+            <rayo>1</rayo>
+        </efectos>
+    </carta>
+    <carta>
+        <id>7</id>
+        <nombre>Dualcast</nombre>
+        <tipo>Habilidad</tipo>
+        <coste>1</coste>
+        <desc>Evoca tu próximo orbe 2 veces</desc>
+        <efectos>
+            <evocar>2</evocar>
+        </efectos>
+    </carta>
+    <carta>
+        <id>8</id>
+        <nombre>Eruption</nombre>
+        <tipo>Ataque</tipo>
+        <coste>2</coste>
+        <desc>Hace 9 de daño y aplica ira</desc>
+        <efectos>
+            <daño>9</daño>
+            <ira>true</ira>
+        </efectos>
+    </carta>
+    <carta>
+        <id>9</id>
+        <nombre>Vigilance</nombre>
+        <tipo>Habilidad</tipo>
+        <coste>2</coste>
+        <desc>Gana 8 de defensa y aplica calma</desc>
+        <efectos>
+            <defensa>8</defensa>
+            <calma>true</calma>
+        </efectos>
+    </carta>
+</cartas>
